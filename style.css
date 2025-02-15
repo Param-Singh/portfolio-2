@@ -507,6 +507,7 @@ nav {
     }
     .social {
         margin-top: 10px;
+        display: none;
     }
     .about {
         flex-direction: column;
