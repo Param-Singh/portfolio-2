@@ -1,0 +1,585 @@
+/* General Styles (Applied to all pages) */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; /* Default text color */
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Example max width */
+    margin: 0 auto; /* Center the nav */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #222; /* Darker on hover */
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social a {
+    font-size: 1.2em;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #222;
+}
+
+/* Hero Section */
+.hero {
+    padding: 30px 20px;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+    /* color: #222; */
+}
+.projects h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #C7C7C7;
+}
+
+.subtitle {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #222; /* Updated color */
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border-bottom: 1px solid #eee; */
+}
+
+.about div {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.about h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.about p {
+    color: #444; /* Updated color */
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .projects h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #222;
+} */
+
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    /* border: 1px solid #eee; */
+    border-radius: 5px;
+}
+
+.tags {
+    margin-bottom: 15px;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-right: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    color: #939393; /* Updated color */
+    line-height: 1.5;
+}
+
+.image-placeholder {
+    background-color: #f0f0f0;
+    height: 220px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 0px 0px;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.contact p {
+    color: #939393; /* Updated color */
+    margin-bottom: 25px;
+}
+
+.links a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #222;
+}
+
+.copyright {
+    font-size: 0.85em;
+    color: #939393; /* Updated color */
+    margin-top: 30px;
+}
+
+/* Specific Styles for Blog Page */
+.blog-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    padding-top: 0px;
+}
+
+.blog-content h1 {
+    font-size: 5.3em;
+    margin-bottom: 45px;
+    line-height: 1;
+    font-weight: 700;
+    color: #222;
+
+}
+
+.blog-content .subtitle {
+    font-size: 6em;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #C7C7C7; /* Updated color */
+    margin-top: 2em;
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.story {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.story h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.story p {
+    color: #939393; /* Updated color */
+    line-height: 1.5;
+}
+
+/* Specific Styles for About Page */
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.about-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content p {
+    color: #939393; /* Updated color */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-content a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about-content a:hover {
+    color: #222;
+}
+
+.about-me, .community, .other {
+    margin-bottom: 20px;
+}
+
+.hobbies, .listening, .watching {
+    margin-top: 30px;
+}
+
+.ux-writing-section {
+    padding: 20px;
+    max-width: 1200px; /* Or your desired max width */
+    margin: 0 auto;
+}
+
+.ux-writing-section h2 {
+    font-size: 2em; /* Adjust as needed */
+    color: #939393; /* Match the color in the image */
+    margin-bottom: 20px;
+}
+
+.blog-previews {
+    min-height: 70vh;
+    display: flex;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap; /* Allow previews to wrap on smaller screens */
+}
+
+.blog-preview {
+    width: 30%; /* Adjust for spacing between previews */
+    margin-bottom: 20px; /* Spacing below each preview */
+    margin-right: 20px;
+    border: 1px solid #eee; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+}
+
+.blog-image-placeholder {
+    min-height: 50vh;
+    background-color: #f0f0f0; /* Light grey background */
+    height: 200px; /* Adjust height as needed */
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.blog-preview h3 {
+    font-size: 1.3em; /* Adjust as needed */
+    margin-bottom: 5px;
+    color: #333; /* Or your desired heading color */
+}
+
+.blog-preview p {
+    font-size: 0.9em; /* Adjust as needed */
+    color: #666; /* Or your desired paragraph color */
+    line-height: 1.4;
+}
+
+
+
+
+
+/* Keyframes for Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* General Animation Styles */
+.animate-on-load {
+    animation: fadeIn 1.4s ease-out forwards;
+}
+
+/* Existing CSS from previous response ... */
+
+/* Keyframes for Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Style to hide content during transition (if using JS) */
+.page-transition {
+    opacity: 0;
+}
+
+/* Loader Styles */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+    display: none; /* Hidden by default */
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey border */
+    border-top: 8px solid #0a0a0b; /* Blue border top */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Existing CSS from previous response ... */
+
+/* Style for the selected/active tab */
+.menu a.active {
+    font-weight: bold; /* Or any other style to highlight the selected tab */
+    color: #222; /* Darker color for selected tab */
+    border-bottom: black 3px solid;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-me h1,.community h1 {
+    margin-top: 0px;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: black;
+}
+.gray {
+    color: #939393;
+}
+
+.about-content .community {
+    margin-bottom: 50px;
+}
+
+.about-content .community h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content .community p {
+    color: #939393;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-flex{
+    display: flex;
+    flex-direction: column;
+}
+.flex-hor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+.right-div {
+    width: 50%;
+}
+.left-div {
+    width: 30%;
+}
+.about-me-content{
+    width: 40%;
+}
+.right-imgs {
+    display: flex;justify-content: space-around;margin-bottom: 10px;
+}
+.right-imgs-bottom{
+    display: flex;justify-content: center;margin-bottom: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .menu a {
+        margin-bottom: 5px;
+    }
+    .social {
+        margin-top: 10px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about div {
+        min-width: auto;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .hero h1 {
+        font-size: 3em;
+    }
+    .subtitle {
+        font-size: 1.6em;
+    }
+
+.about-flex{
+    display: flex;
+    /* height: 100vh; */
+    /* flex-direction: column; */
+}
+.flex-hor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-div {
+    width: 100%;
+}
+.left-div {
+    width: 100%;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+}
+.about-me-content {
+    width: 100%;
+    margin-bottom: 5em;
+}
+.right-imgs {
+    display: flex;flex-direction: row;align-items: center;justify-content: space-around;margin-bottom: 10px;flex-wrap: wrap;
+}
+.right-imgs-bottom{
+    display: flex;justify-content: center;margin-bottom: 10px;
+}
+.abt-imgs {
+    width: 30%;
+}
+.blog-content .subtitle {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #C7C7C7; /* Updated color */
+    margin-top: 0.5em;
+}
+.blog-previews {
+    flex-direction: row; /* Stack previews on smaller screens */
+}
+
+.blog-preview {
+    width: 100%; /* Make previews full-width */
+}
+
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.5em;
+    }
+    .subtitle {
+        font-size: 1.4em;
+    }
+    .stories {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}
