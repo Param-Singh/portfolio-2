@@ -510,19 +510,23 @@ nav {
         display: none;
     }
     .about {
+        padding: 10px 10px;
         flex-direction: column;
     }
     .about div {
         min-width: auto;
     }
     .hero {
-        padding: 80px 20px;
+        padding: 20px 20px;
     }
     .hero h1 {
         font-size: 3em;
     }
     .subtitle {
         font-size: 1.6em;
+    }
+    .current{
+        margin-top: 1em;
     }
 
 .about-flex{
